@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 50 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+}
+h3, a{
+  color:#11999E;
+}
+hr{
+  margin: 100px auto 100px auto;
+  width: 10%;
+  border: none;
+  border-top: 1px dotted #EAF6F6;
+  border-width: 0.8rem;
+
+}
+.header{
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+.header a{
+  padding: 20px;
+  margin: 40px;
+  text-decoration: none;
+}
+.header a:hover{
+  font-size: 1.05rem;
+}
+.bottom--cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.top--cloud {
+  position: absolute;
+  right: 300px;
+  top: 100px;
+}
+.profile{
+  line-height: 2;
+  font-weight: normal;
+}
+.subheading--paragraph{
+  font-weight: normal;
+  line-height: 2;
+}
+.web--style{
+  text-decoration: underline;
+}
+.skill-row{
+  width: 50%;
+  margin: 150px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+.personalImage{
+  width: 15%;
+  border-radius: 100%;
+  border: 1px solid #66BFBF;
+  margin-top: 100px;
+}
+.skillImg1{
+  display: inline-block;
+  width: 25%;
+  float: left;
+  margin-right: 120px;
+}
+.skillImg2{
+  display: inline-block;
+  width: 25%;
+  float: right;
+  margin-left: 80px;
+}
+.top--section {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+#p--tag{
+  margin-bottom: 100px;
+}
+.btn{
+  padding: 20px;
+  color: white;
+  background-color: #66BFBF;
+  text-decoration: none;
+}
+
+.bottom-container {
+margin-top: 100px;
+background-color: #66BFBF;
+padding: 20px;
+}
+.footer-link{
+  color: #11999E;
+  text-decoration: none;
+  margin: 20px;
+}
+.footer-link:hover{
+  color:white;
+}
+
+#p--tag2{
+  margin: 0;
+  color: white;
+  font-size: 10px;
+  padding: 10px 0 0 0;
+}
+
+.work--top--section{
+  position: relative;
+  background-color: #EAF6F6;
+  line-height: 2;
+  font-weight: normal;
+  padding:50px 0 50px 0;
+}
+.work--heading{
+  margin: 0px;
+  margin: 20px 20px 0 20px;
+}
+.work--bottom--cloud {
+  position: absolute;
+  left: 300px;
+  top: 50px;
+}
+.work--top--cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.work--Image{
+  width: 10%;
+  height: 10%;
+  margin-top: 100px;
+}
+.Project1{
+  background-color: #66BFBF;
+  padding: 50px;
+  margin-top: 50px;
+  color: white;
+}
+.raceToAHundred{
+  width: 75%;
+  border: 1px solid black;
+}
+.whiteHeading{
+  padding-top: 40px;
+  color: white;
+  text-decoration: underline;
+}
+.padding--p{
+  margin-bottom: 60px;
+}
+
+.work--btn{
+  background-color: #2b3d50;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+.Project2{
+  background-color: #18ad92;
+  padding: 50px;
+  color: white;
+}
+.work-bottom-container {
+background-color: #66BFBF;
+padding: 20px;
+}
+.work-bottom-container p{
+  font-size: 8px;
+}
+
+
+/* CSS Animation */
+
+#myGroup:hover {
+    animation: 6s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+		animation-name: NinjaStar;
+}
+
+@keyframes NinjaStar {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+#GroupBulb:hover {
+    animation: 3s ease linear;
+		animation-name: LightBulb;
+}
+
+@keyframes LightBulb {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.8);
+  }
+}
